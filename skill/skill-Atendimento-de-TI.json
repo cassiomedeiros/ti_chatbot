@@ -1,0 +1,2069 @@
+{
+  "intents": [
+    {
+      "intent": "avaliacao",
+      "examples": [
+        {
+          "text": "avaliar"
+        },
+        {
+          "text": "avaliar atendimento"
+        },
+        {
+          "text": "dar uma uma nota"
+        },
+        {
+          "text": "quero avaliar"
+        },
+        {
+          "text": "quero avaliar o atendimento"
+        },
+        {
+          "text": "satisfeito"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "devolucao_equipamento",
+      "examples": [
+        {
+          "text": "devolução"
+        },
+        {
+          "text": "devolver"
+        },
+        {
+          "text": "preciso devolver meus equipamentos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "encerrar_chat",
+      "examples": [
+        {
+          "text": "até mais"
+        },
+        {
+          "text": "bom serviço prestado"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "tchau"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hadware",
+      "examples": [
+        {
+          "text": "meu monitor não liga"
+        },
+        {
+          "text": "meu monitor queimou"
+        },
+        {
+          "text": "meu mouse quebrou"
+        },
+        {
+          "text": "meu teclado quebrou"
+        },
+        {
+          "text": "monitor novo"
+        },
+        {
+          "text": "mouse novo"
+        },
+        {
+          "text": "mouse parou"
+        },
+        {
+          "text": "mouse quebrou"
+        },
+        {
+          "text": "mouse travou"
+        },
+        {
+          "text": "notebook novo"
+        },
+        {
+          "text": "notebook quebrou"
+        },
+        {
+          "text": "pc queimou"
+        },
+        {
+          "text": "teclado novo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "inicio",
+      "examples": [
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Opa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "internet",
+      "examples": [
+        {
+          "text": "internet lenta"
+        },
+        {
+          "text": "internet oscilando"
+        },
+        {
+          "text": "não carrega as páginas"
+        },
+        {
+          "text": "não consigo conectar à internet"
+        },
+        {
+          "text": "sem internet"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "novo_usuario",
+      "examples": [
+        {
+          "text": "nova conta"
+        },
+        {
+          "text": "novo login"
+        },
+        {
+          "text": "novo sistema"
+        },
+        {
+          "text": "novo usuário"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sistemas_internos",
+      "examples": [
+        {
+          "text": "Bloqueio"
+        },
+        {
+          "text": "não consigo logar"
+        },
+        {
+          "text": "não lembro da minha senha"
+        },
+        {
+          "text": "não recebi a nova senha"
+        },
+        {
+          "text": "perdi a minha senha"
+        },
+        {
+          "text": "sistema com erro"
+        },
+        {
+          "text": "sistema fora do ar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "status_ticket",
+      "examples": [
+        {
+          "text": "meu chamado já foi atendido"
+        },
+        {
+          "text": "meu chamado será finalizado hoje?"
+        },
+        {
+          "text": "qual é o status do chamado"
+        },
+        {
+          "text": "qual status do ticket"
+        },
+        {
+          "text": "quando vai atender meu chamado"
+        },
+        {
+          "text": "quando vão me atender"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "windows",
+      "examples": [
+        {
+          "text": "aparaceu uma tela azul"
+        },
+        {
+          "text": "ficou lento depois da atualização"
+        },
+        {
+          "text": "meu computador está lento"
+        },
+        {
+          "text": "meu note está lento"
+        },
+        {
+          "text": "meu pc está lento"
+        },
+        {
+          "text": "minha tela está travada"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cancelar_ticket",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "informar ticket",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "solicitar motivo",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "devolucao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "devolucao",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "feedback_ticket",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ticket_nao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ticket_sim",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hardware",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hardware",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mouse",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "teclado",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "internet",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "internet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "internet lenta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "internet oscilando",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sem internet",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "jira",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "esqueceu senha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jira nao abre",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mouse",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mouse parou",
+          "synonyms": [
+            "mouse nao funciona",
+            "mouse novo",
+            "mouse quebrou",
+            "mouse travou",
+            "nao esta funcionando",
+            "não está funcionando"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "novo_usuario",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ferramentas dev",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "novo usuario",
+          "synonyms": [
+            "novo_usuario"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pacote office",
+          "synonyms": [
+            "excel"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ponto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "esqueci_bater_ponto",
+          "synonyms": [
+            "nao bati ponto",
+            "registros de ponto ausentes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sincronizacao",
+          "synonyms": [
+            "faltando registro de ponto",
+            "nao atualizou ponto",
+            "nao subiu ponto",
+            "registros de ponto ausentes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sistemas_internos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "jira",
+          "synonyms": [
+            "backlog",
+            "estórias",
+            "kanban",
+            "planning",
+            "sprint"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ponto",
+          "synonyms": [
+            "esqueci de bater",
+            "registro de ponto",
+            "sincronizacao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sistemas internos",
+          "synonyms": [
+            "sistemas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "solucao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "mesmo problema",
+            "nao resolveu",
+            "problema persiste"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "deu bom",
+            "deu certo",
+            "funcionou",
+            "problema resolvido",
+            "resolveu",
+            "voltou a funcionar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "status_ticket",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "informar ticket",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "solicitar ticket",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "status ticket",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "teclado",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "teclado quebrou",
+          "synonyms": [
+            "teclado parou",
+            "teclado travou"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "windows",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "atualizacao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nok",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ok",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tela azul",
+          "synonyms": [
+            "deu tela azul"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "travou",
+          "synonyms": [
+            "demorado",
+            "ficou lento",
+            "lento",
+            "windows travou"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "windows",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Opções Menu",
+      "output": {
+        "generic": [
+          {
+            "title": "Escolha uma das opções abaixo:",
+            "options": [
+              {
+                "label": "Windows",
+                "value": {
+                  "input": {
+                    "text": "windows"
+                  }
+                }
+              },
+              {
+                "label": "Sistemas Internos",
+                "value": {
+                  "input": {
+                    "text": "sistemas internos"
+                  }
+                }
+              },
+              {
+                "label": "Hardware",
+                "value": {
+                  "input": {
+                    "text": "hardware"
+                  }
+                }
+              },
+              {
+                "label": "Internet",
+                "value": {
+                  "input": {
+                    "text": "internet"
+                  }
+                }
+              },
+              {
+                "label": "Novo Usuário",
+                "value": {
+                  "input": {
+                    "text": "novo usuario"
+                  }
+                }
+              },
+              {
+                "label": "Status Ticket",
+                "value": {
+                  "input": {
+                    "text": "status ticket"
+                  }
+                }
+              },
+              {
+                "label": "Devolução de Equipamentos",
+                "value": {
+                  "input": {
+                    "text": "devolucao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "Bem-vindo",
+      "previous_sibling": "node_10_1618354727321"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_4_1617935352093",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Inicio",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "welcome || #inicio",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1618354727321",
+      "previous_sibling": "node_3_1618536856531"
+    },
+    {
+      "type": "standard",
+      "title": "Ponto",
+      "parent": "node_6_1618015545582",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1617934619950"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1618019790669",
+      "previous_sibling": "node_6_1618279523620"
+    },
+    {
+      "type": "standard",
+      "title": "Hardware",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1618269599294",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Mouse",
+      "parent": "node_3_1618269599294",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1618271268404"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1618270680348",
+      "previous_sibling": "node_3_1618272719305"
+    },
+    {
+      "type": "standard",
+      "title": "Teclado",
+      "parent": "node_3_1618269599294",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1618272918816"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1618272719305"
+    },
+    {
+      "type": "standard",
+      "title": "Teclado_solucao",
+      "parent": "node_3_1618272719305",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1618272918816",
+      "previous_sibling": "response_1_1618273122247"
+    },
+    {
+      "type": "standard",
+      "title": "Status Ticket",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O status do seu ticket é"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1618443130162",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1618443599000"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1618443478108",
+      "previous_sibling": "node_7_1618443599000"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliação indireta",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1617935352093"
+      },
+      "conditions": "#avaliacao",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1618536856531"
+    },
+    {
+      "type": "standard",
+      "title": "registra_opcao",
+      "parent": "Bem-vindo",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1617932067874",
+      "previous_sibling": "response_4_1617932508469"
+    },
+    {
+      "type": "standard",
+      "title": "Avaliacao",
+      "output": {
+        "generic": [
+          {
+            "title": "Como você avalia o meu atendimento?",
+            "options": [
+              {
+                "label": "Péssimo",
+                "value": {
+                  "input": {
+                    "text": "pessimo"
+                  }
+                }
+              },
+              {
+                "label": "Ruim",
+                "value": {
+                  "input": {
+                    "text": "ruim"
+                  }
+                }
+              },
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "normal"
+                  }
+                }
+              },
+              {
+                "label": "Bom",
+                "value": {
+                  "input": {
+                    "text": "bom"
+                  }
+                }
+              },
+              {
+                "label": "Excelente",
+                "value": {
+                  "input": {
+                    "text": "excelente"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1617935754903"
+      },
+      "conditions": "@solucao:sim || true || #avaliacao",
+      "dialog_node": "node_4_1617935352093",
+      "previous_sibling": "node_9_1617934619950"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado. Até mais."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1618535394279"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1617935754903",
+      "previous_sibling": "node_9_1618451287389"
+    },
+    {
+      "type": "standard",
+      "title": "Sistemas internos",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1618015545582",
+      "previous_sibling": "node_9_1618277660930"
+    },
+    {
+      "type": "standard",
+      "title": "Mouse_solucao",
+      "parent": "node_3_1618270680348",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1618271268404"
+    },
+    {
+      "type": "standard",
+      "title": "jira",
+      "parent": "node_6_1618015545582",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1617934619950"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1618279523620"
+    },
+    {
+      "type": "standard",
+      "title": "Consulta Ticket",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por favor, me informe o número do ticket."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1618443478108"
+      },
+      "dialog_node": "node_7_1618443130162",
+      "previous_sibling": "node_8_1617933717208"
+    },
+    {
+      "type": "standard",
+      "title": "Encerrar Consulta",
+      "output": {
+        "generic": [
+          {
+            "title": "Posso te ajudar com algo mais?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "ticket_sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "ticket_nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1618443130162",
+      "conditions": "true",
+      "dialog_node": "node_7_1618443599000"
+    },
+    {
+      "type": "standard",
+      "title": "Windows",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1617934619950"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1617933717208",
+      "previous_sibling": "node_6_1618015545582"
+    },
+    {
+      "type": "standard",
+      "title": "Novo Usuário",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1617934619950"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1618280433885",
+      "previous_sibling": "node_3_1618269599294"
+    },
+    {
+      "type": "standard",
+      "title": "Resposta Encerramento Consulta",
+      "parent": "node_7_1618443599000",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1618443715305"
+    },
+    {
+      "type": "standard",
+      "title": "Solucao",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1617934619950",
+      "previous_sibling": "node_6_1617935754903"
+    },
+    {
+      "type": "standard",
+      "title": "Internet",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1617934619950"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1618277660930",
+      "previous_sibling": "node_8_1618280433885"
+    },
+    {
+      "type": "standard",
+      "title": "Devolucao",
+      "conditions": "true",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1618451287389",
+      "previous_sibling": "node_7_1618443130162"
+    },
+    {
+      "type": "standard",
+      "title": "Encerrar Chat",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chat encerrado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1617935754903",
+      "conditions": "#encerrar_chat",
+      "dialog_node": "node_9_1618535394279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Qual problema com a internet?",
+            "options": [
+              {
+                "label": "Internet lenta",
+                "value": {
+                  "input": {
+                    "text": "internet lenta"
+                  }
+                }
+              },
+              {
+                "label": "Sem internet",
+                "value": {
+                  "input": {
+                    "text": "sem internet"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1617932067874",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1618277660930"
+      },
+      "conditions": "@internet",
+      "dialog_node": "response_10_1618277674180",
+      "previous_sibling": "response_2_1618269779396"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617932067874",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1618354727321"
+      },
+      "conditions": "#inicio",
+      "dialog_node": "response_10_1618446075453",
+      "previous_sibling": "response_6_1618281310425"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Como posso te ajudar com o Jira?",
+            "options": [
+              {
+                "label": "Jira não abre",
+                "value": {
+                  "input": {
+                    "text": "jira nao abre"
+                  }
+                }
+              },
+              {
+                "label": "Esqueci a senha",
+                "value": {
+                  "input": {
+                    "text": "esqueceu senha"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1618015545582",
+      "conditions": "@sistemas_internos:jira",
+      "dialog_node": "response_1_1618017590987",
+      "previous_sibling": "response_4_1618017492061"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que tal reconectar o teclado na porta USB. Assim que puder, retorne aqui para me contar se funcionou. O seu problema foi resolvido?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618272719305",
+      "conditions": "@teclado:(teclado quebrou)",
+      "dialog_node": "response_1_1618273122247"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O link de acesso será enviado para o seu e-mail. Consegui te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1618280433885",
+      "conditions": "@novo_usuario:(pacote office)",
+      "dialog_node": "response_1_1618280773639"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617932067874",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1617935352093"
+      },
+      "conditions": "#avaliacao",
+      "dialog_node": "response_1_1618541639414",
+      "previous_sibling": "response_5_1618541497283"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom que o seu problema foi resolvido. Poderia responder a pesquisa de satisfação, por favor? Ao responder, você me ajuda a melhorar o meu aprendizado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1617934619950",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1617935352093"
+      },
+      "conditions": "@solucao:sim",
+      "dialog_node": "response_2_1617934763804",
+      "previous_sibling": "response_8_1617934702276"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Para qual periférico abaixo você gostaria de ajuda?",
+            "options": [
+              {
+                "label": "Mouse",
+                "value": {
+                  "input": {
+                    "text": "mouse"
+                  }
+                }
+              },
+              {
+                "label": "Teclado",
+                "value": {
+                  "input": {
+                    "text": "teclado"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1617932067874",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1618269599294"
+      },
+      "conditions": "@hardware",
+      "dialog_node": "response_2_1618269779396",
+      "previous_sibling": "response_3_1617932903080"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que bom que consegui te ajudar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618272918816",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1617935352093"
+      },
+      "conditions": "@solucao:sim",
+      "dialog_node": "response_2_1618272951756"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, sou um assistente virtual de suporte de TI."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618354727321",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "true",
+      "dialog_node": "response_2_1618444792952"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "No momento consigo te ajudar neste assuntos relacionados a sistemas internos. Qual destes tópicos gostaria de ajuda?",
+            "options": [
+              {
+                "label": "Jira",
+                "value": {
+                  "input": {
+                    "text": "jira"
+                  }
+                }
+              },
+              {
+                "label": "Ponto",
+                "value": {
+                  "input": {
+                    "text": "Ponto"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1617932067874",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1618015545582"
+      },
+      "conditions": "@sistemas_internos",
+      "dialog_node": "response_3_1617932903080",
+      "previous_sibling": "response_7_1617932877767"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "disabled": true,
+      "dialog_node": "response_4_1617932508469"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reiniciar o computador pode resolver o problema nestes casos. O seu problema foi resolvido com esta dica?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1617933717208",
+      "conditions": "@windows:(tela azul)",
+      "dialog_node": "response_4_1617933918404",
+      "previous_sibling": "response_8_1617933741106"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1617933717208",
+      "dialog_node": "response_4_1617934519427",
+      "previous_sibling": "response_4_1617933918404"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Como posso te auxiliar em relação ao registro de ponto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Tem relação com os itens abaixo?",
+            "options": [
+              {
+                "label": "Meus registros não foram sincronizados",
+                "value": {
+                  "input": {
+                    "text": "sincronizacao"
+                  }
+                }
+              },
+              {
+                "label": "Esqueci de bater ponto",
+                "value": {
+                  "input": {
+                    "text": "esqueci_bater_ponto"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1618015545582",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1618019790669"
+      },
+      "conditions": "@sistemas_internos:ponto",
+      "dialog_node": "response_4_1618017492061",
+      "previous_sibling": "node_1_1618019790669"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Verifique se é apenas um site específico; Verifique se mais alguém está com o mesmo problema. Tente reiniciar o computador e verifique se o problema persiste. Essas dicas te ajudaram?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1618277660930",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1617934619950"
+      },
+      "conditions": "@internet:(internet lenta)",
+      "dialog_node": "response_4_1618278532236"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você receberá um link por e-mail para resetar a sua senha. O problema foi resolvido?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618279523620",
+      "conditions": "@jira:(esqueceu senha)",
+      "dialog_node": "response_4_1618279673689",
+      "previous_sibling": "response_9_1618279536913"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1618443715305",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1617935352093"
+      },
+      "conditions": "@feedback_ticket:ticket_nao",
+      "dialog_node": "response_4_1618445009666",
+      "previous_sibling": "response_5_1618443756565"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1618443715305",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@feedback_ticket:ticket_sim",
+      "dialog_node": "response_5_1618443756565"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617932067874",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1618443130162"
+      },
+      "conditions": "#status_ticket",
+      "dialog_node": "response_5_1618541497283",
+      "previous_sibling": "response_8_1618451355510"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fiquei feliz por ter ajudado. Vou te encaminhar uma pesquisa para avaliar o meu atendimento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618271268404",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1617935352093"
+      },
+      "conditions": "@solucao:sim",
+      "dialog_node": "response_6_1618271317056"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617932067874",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1618443130162"
+      },
+      "conditions": "@status_ticket",
+      "dialog_node": "response_6_1618281310425",
+      "previous_sibling": "response_9_1618280525236"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Peço desculpas por não ter conseguido te ajudar. Abri um ticket para você relatando o seu problema. Em breve você receberá o contato de um dos nossos técnicos para resolver o seu problema."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618272918816",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1617935352093"
+      },
+      "conditions": "@solucao:nao",
+      "dialog_node": "response_6_1618441910807",
+      "previous_sibling": "response_2_1618272951756"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual problema está acontecendo no windows?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617932067874",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1617933717208"
+      },
+      "conditions": "@windows",
+      "dialog_node": "response_7_1617932877767"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Peço desculpas por não ter conseguido te ajudar. Abri um ticket para você relatando o seu problema. Em breve você receberá o contato de um dos nossos técnicos para resolver o seu problema."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618271268404",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1617935352093"
+      },
+      "conditions": "@solucao:nao",
+      "dialog_node": "response_7_1618271397742",
+      "previous_sibling": "response_6_1618271317056"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reiniciar o computador pode resolver o problema nestes casos. O seu problema foi resolvido com esta dica?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1617933717208",
+      "conditions": "@windows:travou",
+      "dialog_node": "response_8_1617933741106"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Infelizmente não consegui te ajudar. Foi registrado um ticket. A qualquer momento um técnico entrará em contato para resolver o seu problema. Muito obrigado por utilizar este canal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1617934619950",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1617935352093"
+      },
+      "conditions": "@solucao:nao",
+      "dialog_node": "response_8_1617934702276"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Não se preocupe, basta acessar a plataforma de gente, acessar pendências de ponto e ajustar. Esta dica foi útil?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1618019790669",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1617934619950"
+      },
+      "conditions": "@ponto:esqueci_bater_ponto",
+      "dialog_node": "response_8_1618019808051"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Já verificou se o seu mouse está conectado na porta USB ou tentou reconectar? Neste casos é sempre bom fazer este teste. Por favor, faça esse check e volte aqui para me contar se deu certo. O seu problema foi resolvido?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618270680348",
+      "conditions": "@mouse:(mouse parou)",
+      "dialog_node": "response_8_1618270706075",
+      "previous_sibling": "node_6_1618271268404"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os dados de acesso serão enviados por e-mail. Consegui te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1618280433885",
+      "conditions": "@novo_usuario:(ferramentas dev)",
+      "dialog_node": "response_8_1618280850205",
+      "previous_sibling": "response_1_1618280773639"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alguém do suporte de TI entrará em contato para agendar o recolhimento ou devolução dos equipamentos e um ticket foi criado para você."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617932067874",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1617935352093"
+      },
+      "conditions": "@devolucao",
+      "dialog_node": "response_8_1618451355510",
+      "previous_sibling": "response_10_1618446075453"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1617935352093",
+      "disabled": true,
+      "dialog_node": "response_9_1617935403497"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Verifique se o seu aparelho está conectado à internet. Não se preocupe, os seus registros não serão perdidos. Após conectado, demora um pouquinho para o registro aparecer na plataforma. Que tal tentar mais tarde?! Esta dica foi útil?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1618019790669",
+      "conditions": "@ponto:sincronizacao",
+      "dialog_node": "response_9_1618020374184",
+      "previous_sibling": "response_8_1618019808051"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me conte mais o que está acontecendo com o seu mouse?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618269599294",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1618270680348"
+      },
+      "conditions": "@hardware:mouse",
+      "dialog_node": "response_9_1618270093663",
+      "previous_sibling": "node_3_1618270680348"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me conte mais o que está acontecendo com o seu teclado?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618269599294",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1618272719305"
+      },
+      "conditions": "@hardware:teclado",
+      "dialog_node": "response_9_1618272676528",
+      "previous_sibling": "response_9_1618270093663"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tem mais alguém com o mesmo problema? Tente reinicar o PC; veja se o cabo ou wifi estão conectados. Algumas dessas dicas te ajudou?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1618277660930",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1617934619950"
+      },
+      "conditions": "@internet:(sem internet)",
+      "dialog_node": "response_9_1618278837392",
+      "previous_sibling": "response_4_1618278532236"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tá conectado na VPN? Esta dica foi útil?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618279523620",
+      "conditions": "@jira:(jira nao abre)",
+      "dialog_node": "response_9_1618279536913"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Para qual sistema você deseja criar um usuário?",
+            "options": [
+              {
+                "label": "Pacote Office",
+                "value": {
+                  "input": {
+                    "text": "pacote office"
+                  }
+                }
+              },
+              {
+                "label": "Ferramentas Dev",
+                "value": {
+                  "input": {
+                    "text": "ferramentas dev"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1617932067874",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1618280433885"
+      },
+      "conditions": "@novo_usuario",
+      "dialog_node": "response_9_1618280525236",
+      "previous_sibling": "response_10_1618277674180"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Atendimento de TI",
+  "language": "pt-br",
+  "description": ""
+}

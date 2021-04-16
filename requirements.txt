@@ -1,0 +1,6 @@
+Flask
+ipykernel
+numpy
+watson-developer-cloud
+matplotlib
+pandas
